@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+backend/venv/              # virtual environment — recreated from requirements.txt
+**/__pycache__/            # Python bytecode cache — auto-generated
+**/*.pyc
+**/*.pyo
+
+# ── Node / React ───────────────────────────────────────────────────────────────
+frontend/node_modules/     # packages — recreated from package.json
+frontend/dist/             # built app — regenerated during deployment
+frontend/dist-ssr/
+
+# ── Model checkpoints ──────────────────────────────────────────────────────────
+checkpoints/best_model.pt      # 180MB — exceeds GitHub limit
+checkpoints/best_model_v2.pt   # 180MB — same
+# vocab.json is only 158KB so we KEEP it in git
+
+# ── Environment & secrets ──────────────────────────────────────────────────────
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+
+# ── OS generated files ─────────────────────────────────────────────────────────
+.DS_Store                  # Mac folder metadata
+Thumbs.db                  # Windows thumbnail cache
+desktop.ini
+
+# ── IDE / Editor files ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ── Docker ─────────────────────────────────────────────────────────────────────
+docker/volumes/
