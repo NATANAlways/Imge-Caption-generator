@@ -1,5 +1,7 @@
 # Image Caption Generator — Web Application
 
+🌐 **Live Demo:** [https://imge-caption-generator.vercel.app](https://imge-caption-generator.vercel.app)
+
 A full-stack web application that generates natural language captions for images using deep learning. Users can upload any image and choose between two trained models to generate a caption.
 
 ---
@@ -18,6 +20,16 @@ Both models were trained on the **Flickr8k dataset** (8,091 images, ~5 captions 
 - Bahdanau attention — focuses on different image regions per word
 - Label smoothing — prevents overconfident predictions
 - Length-normalised beam search — produces more complete captions
+
+---
+
+## Deployment
+
+| Service | Platform | URL |
+|---|---|---|
+| Frontend | Vercel | https://imge-caption-generator.vercel.app |
+| Backend API | Hugging Face Spaces | https://nathis-image-caption-backend.hf.space |
+| API Docs | Hugging Face Spaces | https://nathis-image-caption-backend.hf.space/docs |
 
 ---
 
